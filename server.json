@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.mcp-dir/eleicoes-mcp",
+  "title": "Eleições 2026: Dados Públicos do TSE",
+  "description": "Brazil 2026 election data from the TSE: ballot box reports, logs, results, SHA-256 and source link.",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/mcp-dir/eleicoes-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.mcp.ai/p_eleicoes"
+    }
+  ]
+}
